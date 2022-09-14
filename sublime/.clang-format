@@ -10,6 +10,5 @@ AllowShortBlocksOnASingleLine: true
 AllowShortCaseLabelsOnASingleLine: true
 IndentWidth: 4
 MaxEmptyLinesToKeep: 2
-SpacesBeforeTrailingComments: 2
-TabWidth: 4
+SpacesBeforeTrailingComments: 1
 UseTab: Never
