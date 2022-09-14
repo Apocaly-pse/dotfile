@@ -1,0 +1,27 @@
+show_channel_urls: true
+auto_activate_base: false
+ssl-verify: false
+report_errors: false
+channels:
+  - https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/conda-forge/
+  - conda-forge
+  - https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main/
+  - https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free/
+  - defaults
+# custom_channels:
+#   conda-forge: https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud
+#   pytorch: https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud
+#   pytorch-lts: https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud
+
+#channels:
+#  - conda-forge
+#  - https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main/
+#  - https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free/
+#  - defaults
+
+pkgs_dirs:
+#  - ~/.conda/pkgs/
+  - /opt/homebrew/Caskroom/miniforge/base/pkgs/
+envs_dirs:
+  - /opt/homebrew/Caskroom/miniforge/base/envs/
+ssl_verify: false

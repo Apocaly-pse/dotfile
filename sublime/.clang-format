@@ -1,0 +1,15 @@
+---
+BasedOnStyle: Google
+AccessModifierOffset: -4
+AlignAfterOpenBracket: true
+AlignConsecutiveAssignments: true
+AlignEscapedNewlinesLeft: true
+AlignOperands: true
+AlignTrailingComments: true
+AllowShortBlocksOnASingleLine: true
+AllowShortCaseLabelsOnASingleLine: true
+IndentWidth: 4
+MaxEmptyLinesToKeep: 2
+SpacesBeforeTrailingComments: 2
+TabWidth: 4
+UseTab: Never
